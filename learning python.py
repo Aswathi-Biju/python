@@ -1,4 +1,4 @@
-'''
+
 print("Hello, World!")
 print("Hello\nWorld!")
 if 5>2:
@@ -54,6 +54,6 @@ print(a[6])
 print(a[0],a[1],a[2],a[3])
 print(a[2:5])
 print(a[:5])
-'''
+
 
 
