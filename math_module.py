@@ -11,7 +11,7 @@ Factorial of 5: 120
 5 raised to power 2: 25.0
 '''
 import math
-num1= int(input("Enter a number:"))
-print("Square root of ",num1,":", math.sqrt(num1) )
-print("Factorial of ",num1,":", math.factorial(num1) )
-print(num1,"raised to power 2:", math.pow(num1,2) )
+num= int(input("Enter a number:"))
+print("Square root of ",num,":", math.sqrt(num) )
+print("Factorial of ",num,":", math.factorial(num) )
+print(num,"raised to power 2:", math.pow(num,2) )
