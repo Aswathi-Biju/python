@@ -8,5 +8,8 @@ str1=input("Enter your first name: ")
 str2=input("Enter your last name: ")
 str3= str1+" "+str2
 print(str3)
-sub_str=str3[5:8]
+str1_length=len(str1)
+sub_str=str3[len(str1)+1:]
 print(sub_str)
+sub_str2=str3[:len(str1)]
+print(sub_str2)
