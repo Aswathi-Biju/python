@@ -8,8 +8,12 @@ str1=input("Enter your first name: ")
 str2=input("Enter your last name: ")
 str3= str1+" "+str2
 print(str3)
-str1_length=len(str1)
-sub_str=str3[len(str1)+1:]
-print(sub_str)
-sub_str2=str3[:len(str1)]
+str1_length=len(str1)  #to know the length of the str1
+sub_str1=str3[:len(str1)] #extracting first name
+print(sub_str1)
+sub_str2=str3[len(str1)+1:] #extracting last name
 print(sub_str2)
+
+
+
+
