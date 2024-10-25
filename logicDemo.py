@@ -8,6 +8,11 @@ Use conditional statements to compare the numbers.
 num1= int(input("Enter first number: "))
 num2= int(input("Enter second number: "))
 num3= int(input("Enter third number: "))
-largest_no= num1 and num2 and num3
-print("The largest number is: ", largest_no)
+if num1> num2 and num1>num3:
+    print("The largest number is: ",num1)
+elif num2>num3 :
+    print("The largest number is: ", num2)
+else:
+    print("The largest number is: ", num3)
+
 
