@@ -20,11 +20,11 @@ while True:
         print(f"The current balance ${balance_amount}")
     elif choice == 2:
         deposit_amount= float(input("Enter amount: "))
-        print(f"The deposit amount ${deposit_amount} and"
+        print(f"The deposit amount ${deposit_amount} \n and"
              f"The current balance ${balance_amount}")
     elif choice == 3:
         withdraw_amount= float(input("Enter the amount to withdraw: "))
-        print(f"The amount to withdraw ${withdraw_amount}"
+        print(f"The amount to withdraw ${withdraw_amount}\n"
               f"The current balance ${balance_amount}")
         if withdraw_amount>balance_amount:
             print("Insufficient Amount")
